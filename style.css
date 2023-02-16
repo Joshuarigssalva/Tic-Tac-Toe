@@ -1,0 +1,81 @@
+
+
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(19, 19, 19);
+}
+
+h2 {
+    margin: 0 auto;
+    font-size: 35px;
+    margin: 10px;
+}
+
+.flex-container {
+    /* In order to use flex-box we need 
+    to first set our display property */
+display: flex;
+    /* center the container horizontally */
+justify-content: center;
+    /* this will center content vertically */
+align-items: center;
+    /* tells the container to align the 
+    children in columns rather than rows */
+}
+
+.flex-column {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.flex-wrap {
+    /* tells the container to drop down once it reaches max-width */
+    flex-wrap: wrap;
+    height: 432px;
+    width: 432px;
+}
+
+.square {
+    height: 140px;
+    width: 140px;
+    box-shadow: 0 0 0 2px;
+    line-height: 140px;
+    font-size: 75px;
+    cursor: pointer;
+    }
+
+.square:hover {
+    color: white;
+    background-color: black;
+}
+
+#gameContainer {
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    color: rgb(3, 179, 32);
+}
+
+
+#reset-button {
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid rgb(3, 179, 32);
+    height: 55px;
+    width: 100px;
+    margin: 10px;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(3, 179, 32);
+    color: white;
+    }
+
+#reset-button:hover {
+    background: rgb(19, 19, 19);
+    color:rgb(3, 179, 32);
+    border: 1px solid rgb(3, 179, 32);
+}
+
+
